@@ -210,10 +210,10 @@ svg#links line.active{stroke:var(--ok);stroke-dasharray:6 4;animation:flow 1s li
       <button class="btn-save" data-i18n="btnSave" onclick="saveNode()">حفظ</button>
     </div>
     <div class="row" id="cliOpenRow">
-      <button class="btn-cli" data-i18n="btnCli" onclick="const id=selected; closeModal(); openCli(id)">💻 دخول CLI</button>
+      <button class="btn-cli" data-i18n="btnCli" onclick="const cliId=selected; closeModal(); openCli(cliId)">💻 دخول CLI</button>
     </div>
     <div class="row" id="guiOpenRow">
-      <button class="btn-cli" style="color:#4f8cff" onclick="const id=selected; closeModal(); openGui(id)">🌐 Web GUI</button>
+      <button class="btn-cli" style="color:#4f8cff" onclick="const guiId=selected; closeModal(); openGui(guiId)">🌐 Web GUI</button>
     </div>
   </div>
 </div>
